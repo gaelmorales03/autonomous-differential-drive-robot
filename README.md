@@ -111,5 +111,6 @@ Full engineering report available in:
 
 ##  Authors
 
-Gael Alejandro Morales Rodríguez
-Daniel Arturo Mendoza
+Gael Alejandro Morales Rodríguez.
+
+Daniel Arturo Mendoza.
