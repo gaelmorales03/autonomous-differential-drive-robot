@@ -42,7 +42,7 @@ The system was developed using a modular ROS2 architecture and validated in Gaze
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
 The project was divided into modular ROS2 nodes:
 
@@ -85,7 +85,7 @@ More visual landmarks significantly improved localization accuracy and reduced o
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 (Add your YouTube or Drive link here)
 
