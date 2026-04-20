@@ -99,12 +99,6 @@ Full engineering report available in:
 
 ---
 
-##  Screenshots
-
-(Add Gazebo / RViz / robot screenshots here)
-
----
-
 ##  Applications
 
 * Warehouse robots
