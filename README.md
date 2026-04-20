@@ -42,31 +42,30 @@ The system was developed using a modular ROS2 architecture and validated in Gaze
 
 ---
 
-## System Architecture
+##  Final Software Architecture
 
-The project was divided into modular ROS2 nodes:
+The final implementation was optimized into two high-level ROS2 nodes for improved synchronization.
 
-### trajectory_node
+### `odom.py`
 
-Publishes sequential target waypoints.
+Responsible for localization and state estimation:
 
-### bug3_node
+* Wheel encoder odometry
+* Extended Kalman Filter (EKF)
+* ArUco visual corrections
+* Robot pose publishing
 
-Reactive navigation and obstacle avoidance.
+### `bug3.py`
 
-### ekf_odometry_node
+Responsible for autonomous navigation:
 
-State estimation using wheel encoders + ArUco corrections.
+* Target waypoint handling
+* Trajectory generation
+* Obstacle avoidance
+* Bug navigation logic
+* Velocity command publishing
 
-### vision_node
-
-Computer vision system for ArUco marker detection.
-
-### launch_system
-
-Launches Gazebo, RViz2, and all puzzlebot nodes.
-
----
+This architecture simplified deployment while maintaining modular functionality.
 
 ##  Experimental Results
 
