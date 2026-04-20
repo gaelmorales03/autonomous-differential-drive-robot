@@ -87,7 +87,7 @@ More visual landmarks significantly improved localization accuracy and reduced o
 
 ## Demo Video
 
-(Add your YouTube or Drive link here)
+https://youtu.be/akQVxWerSgs
 
 ---
 
