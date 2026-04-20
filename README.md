@@ -92,9 +92,7 @@ https://youtu.be/akQVxWerSgs
 
 ##  Technical Documentation
 
-Full engineering report available in:
-
-`docs/REPORTE_FINAL.pdf`
+Full engineering report available in: `docs/documentation.pdf`
 
 ---
 
