@@ -1,4 +1,6 @@
-#Autonomous Differential Drive Robot
+<p align="center">
+# Autonomous Differential Drive Robot
+</p>
 
 <p align="center">
 An advanced autonomous robotics platform developed with ROS2, NVIDIA Jetson Nano, EKF localization, ArUco computer vision, and hybrid reactive navigation.
