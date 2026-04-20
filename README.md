@@ -1,9 +1,7 @@
-<p align="center">
-# Autonomous Differential Drive Robot
-</p>
+#Autonomous Differential Drive Robot
 
 <p align="center">
-Advanced autonomous robotics platform developed with ROS2, NVIDIA Jetson Nano, EKF localization, ArUco computer vision, and hybrid reactive navigation.
+An advanced autonomous robotics platform developed with ROS2, NVIDIA Jetson Nano, EKF localization, ArUco computer vision, and hybrid reactive navigation.
 </p>
 
 <p align="center">
@@ -97,7 +95,7 @@ More visual landmarks significantly improved localization accuracy and reduced o
 
 ---
 
-## 📄 Technical Documentation
+##  Technical Documentation
 
 Full engineering report available in:
 
@@ -105,13 +103,13 @@ Full engineering report available in:
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 (Add Gazebo / RViz / robot screenshots here)
 
 ---
 
-## 🎯 Applications
+##  Applications
 
 * Warehouse robots
 * Autonomous delivery
@@ -121,6 +119,7 @@ Full engineering report available in:
 
 ---
 
-## 👨‍💻 Author
+##  Authors
 
 Gael Alejandro Morales Rodríguez
+Daniel Arturo Mendoza
