@@ -1,58 +1,124 @@
 # Autonomous Differential Drive Robot
 
-Autonomous mobile robot developed using ROS2 capable of navigating unknown environments through localization, obstacle avoidance, and autonomous delivery tasks.
+<p align="center">
+Advanced autonomous robotics platform developed with ROS2, NVIDIA Jetson Nano, EKF localization, ArUco computer vision, and hybrid reactive navigation.
+</p>
+
+<p align="center">
+Robotics • Autonomous Navigation • Sensor Fusion • Embedded AI
+</p>
 
 ---
 
-## Features
+## Overview
 
-* Differential drive motion model
-* Autonomous navigation
-* Obstacle avoidance
-* Extended Kalman Filter (EKF) localization
-* Sensor fusion with LiDAR + ArUco markers
-* ROS2 node architecture
-* Object pickup and delivery logic
-* Real-time communication with embedded hardware
+This project involves an autonomous differential-drive mobile robot capable of navigating unknown environments, avoiding obstacles, localizing itself in real-time, and autonomously reaching multiple targets.
+
+The system was developed using a modular ROS2 architecture and validated in Gazebo and RViz environments.
 
 ---
 
-## Technologies
+## Core Technologies
 
 * ROS2
-* Python / C++
-* Gazebo
-* EKF
+* NVIDIA Jetson Nano
+* Python
+* OpenCV
 * LiDAR
-* Computer Vision
-* Jetson Nano
-* Microcontrollers
+* Gazebo
+* RViz2
+* Extended Kalman Filter (EKF)
+* Sensor Fusion
+* ArUco Detection
 
 ---
 
-## System Architecture
+## Key Features
 
-The robot uses ROS2 nodes for modular communication between:
-
-* Localization system
-* Motion controller
-* Obstacle detection
-* Camera marker detection
-* Pick & place module
-* Navigation planner
-
----
-
-## Applications
-
-* Warehouse automation
-* Smart delivery robots
-* Autonomous navigation research
-* Industrial robotics
+- Autonomous waypoint navigation
+- Differential drive motion control
+- Hybrid Bug0 + Bug2 obstacle avoidance
+- EKF pose estimation
+- Encoder + camera sensor fusion
+- ArUco-based visual corrections
+- Real-time ROS2 communication
+- Simulation validated in Gazebo
 
 ---
 
-## Author
+## 🏗 System Architecture
+
+The project was divided into modular ROS2 nodes:
+
+### trajectory_node
+
+Publishes sequential target waypoints.
+
+### bug3_node
+
+Reactive navigation and obstacle avoidance.
+
+### ekf_odometry_node
+
+State estimation using wheel encoders + ArUco corrections.
+
+### vision_node
+
+Computer vision system for ArUco marker detection.
+
+### launch_system
+
+Launches Gazebo, RViz2, and all puzzlebot nodes.
+
+---
+
+##  Experimental Results
+
+Four localization experiments were performed with different numbers of ArUco markers:
+
+| ArUcos | Avg Error    |
+| ------ | ------------ |
+| 5      | 0.149 m      |
+| 4      | 0.645 m      |
+| 3      | 0.648 m      |
+| 0      | Severe drift |
+
+### Conclusion
+
+More visual landmarks significantly improved localization accuracy and reduced odometry drift.
+
+---
+
+## 🎥 Demo Video
+
+(Add your YouTube or Drive link here)
+
+---
+
+## 📄 Technical Documentation
+
+Full engineering report available in:
+
+`docs/REPORTE_FINAL.pdf`
+
+---
+
+## 📷 Screenshots
+
+(Add Gazebo / RViz / robot screenshots here)
+
+---
+
+## 🎯 Applications
+
+* Warehouse robots
+* Autonomous delivery
+* Smart factories
+* Mobile robotics research
+* Industrial automation
+
+---
+
+## 👨‍💻 Author
 
 Gael Alejandro Morales Rodríguez
-
